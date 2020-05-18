@@ -19,7 +19,7 @@ fs.readdir('./files/', (err, files) => {
 
     // 4
     let countFiles = 0;
-    let letter = '5' ;
+    let letter = 'f' ;
     files.forEach( file => {
         if (file.startsWith(letter)) countFiles++;
     });
